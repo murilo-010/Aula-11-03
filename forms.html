@@ -6,23 +6,31 @@
     <title>Forms</title>
 </head>
 <body>
-        <form action="" >
-            <label for="Nome">Nome</label>
-            <input type="text" name="" id="Nome">
-            <p></p>
-            <label for="sexo">Sexo</label>
-            <select name="0" id="sexo">
-                <option value="M">M</option>
-                <option value="F">F</option>
-            </select>
-            <p></p>
-            <label for="senha">senha</label>
-            <input type="password" name="" id="senha">
-            <p></p>
-            <label for="email">E-mail</label>
-            <input type="email" name="" id="email">
-            <p></p>
-            <input type="submit" name="Cadastrar" id="botao" value="Cadastrar" >
-        </form>
+    <form action="" name="">
+        <fieldset><legend>Dados pessoais</legend>
+            <label for="nome">Nome: </label>
+            <input type="text" name="" id="nome">
+
+            <label for="email">Email: </label>
+            <input type="text" name="" id="email">
+
+            <label for="senha">Senha: </label>
+            <input type="text" name="" id="senha">
+
+            <label for="confirmar">Confirmar senha: </label>
+            <input type="text" name="" id="confirmar">
+
+            <label for="menos"> Menos de 17
+                <input type="radio" value="Menos de 17" name="opcao" id="menos">
+            
+            </label>
+            <label for="mais"> Mais de 17
+                <input type="radio" value="Menos de 17" name="opcao" id="mais">
+            </label>
+        </fieldset>
+            
+        
+    
+    </form>
 </body>
 </html>
