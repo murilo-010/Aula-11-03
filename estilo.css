@@ -1,0 +1,25 @@
+#nome{
+    text-align: center;
+    color: aqua;
+}
+#foto{
+    text-align: center;
+}
+.minhadiv{
+    text-align: center;
+    background-color: darkgrey;
+    border: 2px dashed black;
+}
+.titulo:hover{
+    background-color: aqua;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ol{
+    list-style-type: upper-alpha;
+}
+
+#redessociais{
+   background-color: aquamarine;
+}
